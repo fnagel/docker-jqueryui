@@ -45,4 +45,6 @@ RUN apt-get purge -y curl build-essential \
 
 USER node
 
+RUN node -v
+
 CMD ["node", "server.js", "--host", "0.0.0.0", "--console"]
