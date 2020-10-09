@@ -13,3 +13,8 @@ Docker image for running https://github.com/jquery/download.jqueryui.com/
 Just run `docker-compose up --detach --build`
 
 Open http://localhost in your browswer
+
+
+## Notes
+
+* Themeroller is broken, unsure why
