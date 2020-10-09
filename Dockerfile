@@ -22,9 +22,9 @@ RUN npm install -g grunt-cli
 
 WORKDIR /home/node
 
-RUN curl -sL https://github.com/mgol/download.jqueryui.com/archive/node-10-12-14.tar.gz > archive.tar.gz \
+RUN curl -sL https://github.com/jquery/download.jqueryui.com/archive/master.tar.gz > archive.tar.gz \
     && tar -xzf archive.tar.gz \
-    && mv download.jqueryui.com-node-10-12-14 ./app \
+    && mv download.jqueryui.com-master ./app \
     && chown -R node ./app \
     && rm archive.tar.gz
 
