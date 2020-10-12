@@ -17,4 +17,4 @@ Open http://localhost in your browswer
 
 ## Notes
 
-* Themeroller is broken, unsure why
+* Use `docker-compose down --rmi local -v` before `up` to ensure a fresh build with new dependencies
